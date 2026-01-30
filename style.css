@@ -13,15 +13,39 @@ body {
 }
 
 h1 {
-    font-size: 2em;
+    color: #800080;
     margin-bottom: 0;
     letter-spacing: 2px;
+    font-size: 0;
+}
+
+h1 .cap {
+    font-size: 47.2px;
+    font-family: "Times New Roman", Times, serif;
+}
+
+h1 .lower {
+    font-size: 40.2px;
+    font-family: "Times New Roman", Times, serif;
 }
 
 h2 {
-    font-size: 1.2em;
+    color: #800080;
+    font-size: 31.85px;
+    font-family: "Times New Roman", Times, serif;
     margin-top: 5px;
     font-weight: normal;
+}
+
+.columns {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    text-align: left;
+}
+
+.columns ul {
+    display: block;
 }
 
 h3 {
