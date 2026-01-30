@@ -112,3 +112,16 @@ hr {
     margin-top: 25px;
     margin-bottom: 10px;
 }
+
+.three-columns {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    text-align: left;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.three-columns ul {
+    display: block;
+}
